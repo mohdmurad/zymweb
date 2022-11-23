@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            background-image: url(bg.jpg);
+        }
+
+        .conatiner {
+            width: 450px;
+            height: 257px;
+
+            border: 1px solid rgb(88, 41, 41);
+            border-radius: 34px;
+            position: absolute;
+            left: 170px;
+            top: 160px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        .form-group {
+            text-align: center;
+
+            padding: 5px;
+
+        }
+
+        input {
+            border: 3px solid grey;
+            width: 328px;
+            border-radius: 57px;
+        }
+
+        .form-group input {
+            text-align: center;
+
+        }
+
+        .btn {
+            border: 3px solid grey;
+            width: 328px;
+            border-radius: 80px;
+            position: absolute;
+            left: 64px;
+        }
+
+        .middle {
+            position: absolute;
+            left: 330px;
+            margin: 12px;
+            display: inline-block;
+
+        }
+
+        .middle li {
+            margin: 5px;
+            display: inline-block;
+            padding: 20px;
+        }
+
+        .middle li a {
+            text-decoration: none;
+            cursor: pointer;
+            margin: 12px;
+            padding: 20px;
+            font-size: 25px;
+            color: white;
+        }
+
+        .right {
+            position: absolute;
+            right: 70px;
+            top: 29px;
+        }
+
+        button {
+            border-radius: 6px;
+            border: 2px solid grey;
+            padding: 5px;
+            margin: 5px;
+            width: 70px;
+            height: 35px;
+            color: rgb(14, 14, 14);
+
+        }
+
+        button:hover {
+            background-color: rgb(177, 208, 208);
+
+        }
+
+        .middle li a:hover {
+            color: grey;
+
+        }
+
+        h2 {
+            color: white;
+        }
+
+        .left {
+
+            display: inline-block;
+            filter: invert(100%);
+            width: 100px;
+        }
+
+        .left div {
+            background-color: white;
+        }
+
+        .left img {
+            width: 80px;
+            height: 48;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="left">
+            <img src="gym.png" alt="">
+            <div>Murad fitness
+            </div>
+        </div>
+        <div class="right">
+            <button>Emial</button>
+            <button>Conatct</button>
+        </div>
+        <ul class="middle">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">fittnes</a></li>
+            <li><a href="#">Conatct</a></li>
+        </ul>
+    </header>
+
+    <div class="conatiner">
+        <h2>Best Zym of lucknow</h2>
+        <form action="backened.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your number">
+            </div>
+            <button class="btn">submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
